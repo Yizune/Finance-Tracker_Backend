@@ -13,6 +13,9 @@
     "mongoose": "^8.9.5",
     "nodemon": "^3.1.9"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "devDependencies": {
     "sass": "^1.93.3"
   }
