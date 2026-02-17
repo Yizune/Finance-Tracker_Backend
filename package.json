@@ -1,0 +1,25 @@
+{
+  "name": "finance-tracker-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "npx tsx index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.2.1",
+    "tsx": "^4.19.0",
+    "typescript": "~5.7.0"
+  }
+}
